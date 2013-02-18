@@ -1,0 +1,11 @@
+4b4407e88fbd63ead4183afa3d4eb92c *DESCRIPTION
+a2b52f0651e8d9e88c134274fceffb9e *NAMESPACE
+e0b737e5e602c39284f267388108152d *R/addpi.R
+6d9d6bd069044ca4407df51870bd4fe5 *R/pba.R
+a81b1d2853ecb17ebfe0521770764416 *R/pbaAgain.R
+ee0b304a63ae75bc758d9103913151a4 *R/piFunction.R
+6cb8181448b146055d0e20315d367b31 *R/plotpi.R
+24417bff739fa32fd184de7b79c73f6b *man/PropScrRand-package.Rd
+cbe396e9770c8101685fe5bb6ea17ecf *man/pba.Rd
+3987a073b4a3a6420d3a4a20e76c6082 *man/piFunction.Rd
+32b870415649b0adc8f33f1c8d7cc0d9 *man/plotpi.Rd
