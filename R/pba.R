@@ -4,11 +4,14 @@ function(x, tr, newx, k=1, global=0.5){
   if(!is.data.frame(x))             stop('x must be a data.frame')
   if(length(tr) != nrow(x))         stop('tr length not equal to x rows')
   if(!is.data.frame(newx))          stop('newx must be a data.frame')
-  if(ncol(newx) != ncol(x))         stop('newx does not have same number of covariates as x')
+  if(ncol(newx) != ncol(x))         stop('newx does not have same 
+                                         number of covariates as x')
   if(prod(names(newx)!= names(x)))  stop('newx covariates differ from x')
   if(nrow(newx) > 1)                stop('newx has more than one row')
-  if(k < 0)                         stop('k must be 0, Inf, or a ratio of positive odd integers')
-  if(global <= 0 | global >= 1)     stop('global is proportion to be treated: need 0 < global < 1')
+  if(k < 0)                         stop('k must be 0, Inf, 
+                                         or a ratio of positive odd integers')
+  if(global <= 0 | global >= 1)     stop('global is proportion to be treated: 
+                                         need 0 < global < 1')
 
   ## obtain fitted propensity score
   tmodel = glm(tr ~., family=binomial('logit'), data=x)
