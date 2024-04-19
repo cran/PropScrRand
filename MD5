@@ -1,4 +1,4 @@
-678276b5601176a7ef52476ae4572fbc *DESCRIPTION
+8443bf9950e490ada6d8427c76ec6f19 *DESCRIPTION
 5875f1bfd0c6d2ebc827ec67bc9cb25d *NAMESPACE
 e0b737e5e602c39284f267388108152d *R/addpi.R
 5b356a1c373b7bef1ac4ec3d23277722 *R/genPerms.R
@@ -8,7 +8,6 @@ fb9db4eafc33056598eca22ea81179e0 *R/pbaAgain.R
 44a4ae0e1b16a2fca03a333f79af2564 *R/pcr.R
 e9108e89f66af1d782ceaafab65589ca *R/piFunction.R
 533da2ee5ec958ba3fb1d38e3af27ffa *R/plotpi.R
-362f6395eba729242065155bf52416db *man/PropScrRand-package.Rd
 6bc317bc794c0eb4e8796e6a0437086a *man/genPerms.Rd
 0d97560a187248352e4a0bb439621f61 *man/getVar.Rd
 d94f0c94aebc47db7c6cf7a98f7df20f *man/pba.Rd
